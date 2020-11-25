@@ -1,0 +1,20 @@
+.user-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.user-list__item {
+    width: 200px;
+    height: 100px;
+    border: 1px solid;
+    margin: 10px;
+    padding: 15px 5px;
+}
+
+.user-list__item span {
+    display: block;
+    margin-bottom: 5px;
+}
