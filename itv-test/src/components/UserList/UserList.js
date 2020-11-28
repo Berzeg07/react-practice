@@ -17,7 +17,7 @@ export default class UserList extends Component {
         usersRender: []
     }
 
-    // Поиск по ключу объекта в массиве (возвращаем нужное значение getValue, если искомый ключ и значение имеется) *
+    // Поиск по ключу и значению объекта в массиве (возвращаем нужное значение getValue, если искомый ключ и значение имеется) *
     findWithKey(array, key, value, getValue) {
         for (var i = 0; i < array.length; i++) {
             if (array[i][key] === value) {
